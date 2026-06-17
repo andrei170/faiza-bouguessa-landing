@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Bouguessa Edit | Early Access</title>
+<meta name="description" content="A private early-access list for the women who want the piece before it sells out. Quiet luxury, ready-to-wear, from the atelier of Faiza Bouguessa.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Bouguessa Edit | Early Access">
+<meta property="og:description" content="A private early-access list for the women who want the piece before everyone else.">
+<meta property="og:url" content="https://andrei170.github.io/faiza-bouguessa-landing/">
+<meta property="og:image" content="https://andrei170.github.io/faiza-bouguessa-hub/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Bouguessa Edit | Early Access">
+<meta name="twitter:description" content="A private early-access list. Quiet luxury, before everyone else.">
+<meta name="twitter:image" content="https://andrei170.github.io/faiza-bouguessa-hub/og-image.png">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🧵&lt;/text&gt;&lt;/svg&gt;">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --black:#111111;
+    --ink:#1a1a1a;
+    --near-black:#231F20;
+    --bg:#ffffff;
+    --bg-alt:#f8f8f8;
+    --line:#e6e6e6;
+    --muted:#6e6e6e;
+    --champagne:#C9A86A;
+    --champagne-dark:#a9893f;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;font-size:17px;font-weight:300;-webkit-font-smoothing:antialiased;}
+  h1,h2,h3{font-family:'Cormorant','Georgia',serif;font-weight:600;line-height:1.16;color:var(--black);letter-spacing:0.01em;}
+  h1{font-size:3.4rem;font-weight:500;}
+  h2{font-size:2.5rem;font-weight:500;}
+  h3{font-size:1.4rem;}
+  p{margin-bottom:1rem;}
+  a{text-decoration:none;color:inherit;}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 26px;}
+  .narrow{max-width:680px;margin:0 auto;}
+  section{padding:84px 0;}
+
+  .btn{display:inline-block;background:var(--black);color:#fff;font-family:'Poppins',sans-serif;font-weight:500;font-size:0.84rem;letter-spacing:0.16em;text-transform:uppercase;padding:17px 40px;border:1px solid var(--black);cursor:pointer;transition:background .25s ease, color .25s ease;}
+  .btn:hover{background:#fff;color:var(--black);}
+  .btn-ghost{background:transparent;color:var(--black);border:1px solid var(--black);}
+  .btn-ghost:hover{background:var(--black);color:#fff;}
+
+  nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:74px;}
+  .nav-logo{font-family:'Cormorant',serif;font-weight:600;font-size:1.7rem;letter-spacing:0.3em;color:var(--black);padding-left:0.3em;}
+  .nav-link{font-size:0.74rem;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;border:1px solid var(--black);padding:11px 22px;transition:background .25s ease,color .25s ease;}
+  .nav-link:hover{background:var(--black);color:#fff;}
+
+  .hero{text-align:center;padding:110px 0 96px;background:var(--bg);}
+  .hero .eyebrow{font-family:'Poppins',sans-serif;font-size:0.74rem;letter-spacing:0.34em;text-transform:uppercase;color:var(--champagne-dark);font-weight:500;margin-bottom:30px;}
+  .hero h1{max-width:16ch;margin:0 auto 26px;}
+  .hero .sub{font-size:1.18rem;color:var(--muted);max-width:46ch;margin:0 auto 38px;font-weight:300;}
+  .hairline{width:54px;height:1px;background:var(--champagne);margin:0 auto 30px;}
+
+  .marquee{background:var(--black);color:#fff;}
+  .marquee .wrap{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px 46px;padding-top:34px;padding-bottom:34px;}
+  .marquee span{font-family:'Cormorant',serif;font-size:1.35rem;letter-spacing:0.04em;color:#f1f1f1;}
+  .marquee .dot{color:var(--champagne);font-size:0.7rem;}
+
+  .lead{font-size:1.26rem;color:var(--ink);font-weight:300;font-family:'Cormorant',serif;line-height:1.5;}
+  .center{text-align:center;}
+  .eyebrow-s{font-family:'Poppins',sans-serif;text-transform:uppercase;letter-spacing:0.24em;font-weight:500;font-size:0.72rem;color:var(--champagne-dark);margin-bottom:18px;}
+
+  .alt{background:var(--bg-alt);}
+
+  .story p{margin-bottom:1.3rem;color:#2a2a2a;}
+  .story .pull{font-family:'Cormorant',serif;font-size:1.9rem;line-height:1.35;color:var(--black);font-weight:500;margin:34px 0;padding-left:24px;border-left:2px solid var(--champagne);}
+
+  .philosophy{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:50px;}
+  .phil{text-align:center;padding:8px;}
+  .phil .n{font-family:'Cormorant',serif;font-size:1.5rem;color:var(--champagne-dark);margin-bottom:10px;}
+  .phil h3{margin-bottom:10px;}
+  .phil p{color:var(--muted);font-size:0.98rem;margin:0;}
+
+  .proof-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:46px;}
+  .proof{background:#fff;padding:38px 32px;text-align:center;}
+  .proof .label{font-family:'Poppins',sans-serif;font-size:0.68rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--champagne-dark);font-weight:600;margin-bottom:12px;}
+  .proof .big{font-family:'Cormorant',serif;font-size:1.7rem;color:var(--black);font-weight:500;line-height:1.3;margin-bottom:8px;}
+  .proof .small{font-size:0.92rem;color:var(--muted);margin:0;}
+
+  .edit{background:var(--black);color:#fff;text-align:center;}
+  .edit h2{color:#fff;}
+  .edit .eyebrow-s{color:var(--champagne);}
+  .edit p.intro{color:#cfcfcf;max-width:48ch;margin:18px auto 40px;font-weight:300;}
+  .form{max-width:480px;margin:0 auto;}
+  .form .field{margin-bottom:14px;text-align:left;}
+  .form label{display:block;font-family:'Poppins',sans-serif;font-size:0.68rem;letter-spacing:0.16em;text-transform:uppercase;color:#9a9a9a;margin-bottom:7px;font-weight:500;}
+  .form input{width:100%;background:transparent;border:none;border-bottom:1px solid #444;color:#fff;font-family:'Poppins',sans-serif;font-size:1rem;font-weight:300;padding:10px 2px;transition:border-color .25s ease;}
+  .form input:focus{outline:none;border-color:var(--champagne);}
+  .form input::placeholder{color:#666;}
+  .form .btn{width:100%;margin-top:22px;background:var(--champagne);border-color:var(--champagne);color:var(--black);}
+  .form .btn:hover{background:#fff;border-color:#fff;color:var(--black);}
+  .form .fine{font-size:0.78rem;color:#7a7a7a;margin:18px 0 0;font-weight:300;letter-spacing:0.01em;}
+
+  .about-grid{display:grid;grid-template-columns:1fr;gap:18px;max-width:680px;margin:0 auto;text-align:center;}
+  .signature{font-family:'Cormorant',serif;font-size:2rem;color:var(--black);font-weight:500;margin-top:8px;}
+
+  .faq{max-width:760px;margin:40px auto 0;}
+  .q{border-bottom:1px solid var(--line);}
+  .q-head{width:100%;text-align:left;background:none;border:none;cursor:pointer;padding:24px 4px;font-family:'Cormorant',serif;font-weight:600;font-size:1.35rem;color:var(--black);display:flex;justify-content:space-between;align-items:center;gap:16px;}
+  .q-icon{flex-shrink:0;font-size:1.5rem;color:var(--champagne-dark);transition:transform .25s ease;font-weight:300;font-family:'Poppins',sans-serif;}
+  .q.open .q-icon{transform:rotate(45deg);}
+  .q-body{max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--muted);}
+  .q-body p{padding:0 4px 24px;margin:0;font-size:1rem;}
+
+  .final{text-align:center;background:var(--bg-alt);}
+  .final h2{max-width:18ch;margin:0 auto 18px;}
+
+  footer{background:var(--black);color:#9a9a9a;padding:54px 0 44px;text-align:center;}
+  .foot-logo{font-family:'Cormorant',serif;font-size:1.6rem;letter-spacing:0.3em;color:#fff;margin-bottom:14px;padding-left:0.3em;}
+  .foot-nav{display:flex;gap:26px;flex-wrap:wrap;justify-content:center;margin-bottom:22px;}
+  .foot-nav a{color:#9a9a9a;font-size:0.74rem;letter-spacing:0.14em;text-transform:uppercase;transition:color .2s ease;}
+  .foot-nav a:hover{color:#fff;}
+  .copy{font-size:0.8rem;color:#666;letter-spacing:0.02em;}
+  .disclaimer{font-size:0.74rem;color:#5a5a5a;max-width:60ch;margin:14px auto 0;font-weight:300;line-height:1.6;}
+
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease, transform .7s ease;}
+  .reveal.show{opacity:1;transform:none;}
+
+  @media(max-width:860px){
+    h1{font-size:2.5rem;}h2{font-size:2rem;}
+    .hero{padding:80px 0 70px;}
+    .philosophy{grid-template-columns:1fr;gap:34px;}
+    .proof-grid{grid-template-columns:1fr;}
+    section{padding:62px 0;}
+    .nav-logo{font-size:1.4rem;letter-spacing:0.2em;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="wrap nav-inner">
+    <div class="nav-logo">BOUGUESSA</div>
+    <a href="#edit" class="nav-link">Join the Edit</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow reveal">Private Early Access</div>
+    <div class="hairline reveal"></div>
+    <h1 class="reveal">Some things should reach you before everyone else.</h1>
+    <p class="sub reveal">The Bouguessa Edit is a quiet list for the women who want the piece before it sells out. New work, first.</p>
+    <a href="#edit" class="btn reveal">Request Access</a>
+  </div>
+</header>
+
+<!-- MARQUEE / PROOF STRIP -->
+<div class="marquee reveal">
+  <div class="wrap">
+    <span>Worn by Beyonce</span><span class="dot">&#9670;</span>
+    <span>Ranked by Forbes</span><span class="dot">&#9670;</span>
+    <span>Chosen by Jumeirah</span><span class="dot">&#9670;</span>
+    <span>Designed in Dubai</span>
+  </div>
+</div>
+
+<!-- THE STORY -->
+<section>
+  <div class="wrap narrow story">
+    <p class="eyebrow-s center reveal">The Atelier</p>
+    <h2 class="center reveal" style="margin-bottom:34px;">Before the brand, a grandmother and a sewing machine.</h2>
+    <p class="reveal">Faiza Bouguessa learned to notice fabric early, watching a grandmother who sewed. The path was not a straight line. There were years in the air as cabin crew, a quiet pull toward design that kept knocking, and finally, in 2014, an atelier in Dubai.</p>
+    <p class="reveal">The idea was simple and a little contrary. Design for the woman no one was thinking about. Make pieces that feel like something when you wear them. Choose restraint over noise.</p>
+    <div class="pull reveal">"I like to think of the brand as a kind of quiet power. Something strong, but not loud."</div>
+    <p class="reveal">That instinct turned into a label worn on the world's stages and carried in the world's wardrobes. The work speaks softly. It has never needed to shout.</p>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="alt">
+  <div class="wrap">
+    <p class="eyebrow-s center reveal">The Philosophy</p>
+    <h2 class="center reveal">Quiet luxury, made to be returned to.</h2>
+    <div class="philosophy">
+      <div class="phil reveal">
+        <div class="n">I.</div>
+        <h3>Quiet Power</h3>
+        <p>Strong, considered, never loud. Pieces that hold the room without asking for it.</p>
+      </div>
+      <div class="phil reveal">
+        <div class="n">II.</div>
+        <h3>Effortless Elegance</h3>
+        <p>Clean lines and honest fabric. Designed to feel as good as it looks, every time you reach for it.</p>
+      </div>
+      <div class="phil reveal">
+        <div class="n">III.</div>
+        <h3>For The Wardrobe</h3>
+        <p>Made for the woman who returns to a piece, not the one who replaces it next season.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow-s center reveal">The Record</p>
+    <h2 class="center reveal">Worn first by the women you would expect.</h2>
+    <div class="proof-grid">
+      <div class="proof reveal">
+        <div class="label">On Stage</div>
+        <div class="big">Worn by Beyonce</div>
+        <p class="small">2017. The piece sold out almost instantly.</p>
+      </div>
+      <div class="proof reveal">
+        <div class="label">In Print</div>
+        <div class="big">Ranked by Forbes</div>
+        <p class="small">Women Behind Middle Eastern Brands, 2021 and 2022.</p>
+      </div>
+      <div class="proof reveal">
+        <div class="label">In Partnership</div>
+        <div class="big">Chosen by Jumeirah</div>
+        <p class="small">The Heritage Club capsule, 2025.</p>
+      </div>
+      <div class="proof reveal">
+        <div class="label">On The Shortlist</div>
+        <div class="big">Woolmark Prize Finalist</div>
+        <p class="small">Recognised among the names to watch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE EDIT / CAPTURE -->
+<section class="edit" id="edit">
+  <div class="wrap">
+    <p class="eyebrow-s reveal">The Bouguessa Edit</p>
+    <h2 class="reveal">Be on the inside.</h2>
+    <p class="intro reveal">Join the list and you see new work first, receive the stories behind the pieces, and step into early access before anything reaches the wider world. Considered, never crowded.</p>
+    <form class="form reveal" onsubmit="return false;">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name">
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+      </div>
+      <div class="field">
+        <label for="phone">Mobile (for early access)</label>
+        <input type="tel" id="phone" name="phone" placeholder="Optional" autocomplete="tel">
+      </div>
+      <button type="submit" class="btn">Join the Edit</button>
+      <p class="fine">Quiet by design. A few notes a month, never noise. Leave whenever you wish.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOUNDER NOTE -->
+<section class="alt">
+  <div class="wrap about-grid">
+    <p class="eyebrow-s reveal">A Note From The Atelier</p>
+    <h2 class="reveal">Made for you, not for the trend.</h2>
+    <p class="reveal" style="color:#2a2a2a;">I built this house to dress the woman who values how a piece makes her feel over how loudly it speaks. The Edit is simply the closest seat to that work. If that sounds like you, I would love to have you on the inside.</p>
+    <div class="signature reveal">Faiza Bouguessa</div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow-s center reveal">Questions</p>
+    <h2 class="center reveal">Good to know</h2>
+    <div class="faq">
+      <div class="q"><button class="q-head">What is The Bouguessa Edit?<span class="q-icon">+</span></button><div class="q-body"><p>A private list for the brand's closest audience. Members see new pieces first, read the stories behind them, and get early access before a wider release.</p></div></div>
+      <div class="q"><button class="q-head">How often will I hear from you?<span class="q-icon">+</span></button><div class="q-body"><p>Rarely, and only when it is worth it. A few considered notes a month. This is a quiet channel, not a flood of promotions.</p></div></div>
+      <div class="q"><button class="q-head">Is this a discount club?<span class="q-icon">+</span></button><div class="q-body"><p>No. It is about access and story, not markdowns. The value is being first and being close to the work, the way the brand has always preferred.</p></div></div>
+      <div class="q"><button class="q-head">Can I leave the list?<span class="q-icon">+</span></button><div class="q-body"><p>Of course, any time, in one click. You stay because you want to, never because it is hard to go.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final">
+  <div class="wrap">
+    <h2 class="reveal">The piece you will love is coming.</h2>
+    <p class="lead reveal center" style="margin:0 auto 30px;max-width:30ch;">Be among the first to see it.</p>
+    <a href="#edit" class="btn reveal">Request Access</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-logo">BOUGUESSA</div>
+    <div class="foot-nav">
+      <a href="#edit">Join the Edit</a>
+      <a href="#">The Atelier</a>
+      <a href="#">Wholesale</a>
+      <a href="#">Press</a>
+    </div>
+    <div class="copy">&copy; 2026 BOUGUESSA. Dubai Design District. All rights reserved.</div>
+    <p class="disclaimer">Press and recognition references reflect publicly reported coverage. Early-access membership is offered as a courtesy and may change at any time.</p>
+  </div>
+</footer>
+
+<script>
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
+  },{threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  document.querySelectorAll('.q-head').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var q = btn.parentElement;
+      var body = q.querySelector('.q-body');
+      var isOpen = q.classList.contains('open');
+      document.querySelectorAll('.q').forEach(function(other){
+        other.classList.remove('open');
+        other.querySelector('.q-body').style.maxHeight = null;
+      });
+      if(!isOpen){ q.classList.add('open'); body.style.maxHeight = body.scrollHeight + 'px'; }
+    });
+  });
+</script>
+<script>(function(){function fix(im){if(im.complete&&im.naturalWidth===0){im.style.display='none';}im.addEventListener('error',function(){this.style.display='none';});}document.querySelectorAll('img').forEach(fix);})();</script>
+</body>
+</html>
